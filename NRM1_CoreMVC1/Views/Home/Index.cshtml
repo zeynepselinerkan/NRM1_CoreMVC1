@@ -1,0 +1,17 @@
+﻿@using NRM1_CoreMVC1.Models
+@model List<Employee>
+<h1>Merhaba Dünya MVC</h1>
+
+<table border="1">
+   
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.FirstName</td>
+        <td>@item.LastName</td>
+    </tr>
+    }
+
+    
+
+</table>
